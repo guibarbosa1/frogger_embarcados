@@ -1,5 +1,7 @@
 # Frogger Embarcados
 
+Guilherme da Silva Barbosa e Gabriel Targas
+
 Este repositório contém a implementação de uma versão arcade do clássico jogo Frogger (Atari), desenvolvida especificamente para a placa de desenvolvimento FPGA Zybo Z7-20. O projeto foi criado como parte das atividades da disciplina de Sistemas Embarcados da Universidade Federal de São Carlos (UFSCar).
 
 ## Arquitetura e Ferramentas Utilizadas
