@@ -1,0 +1,17 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/811692/Downloads/frogger/hdmi.xdc rfile:../../../../hdmi.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:22 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H16  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_clk_p }];  # hdmi_tx_clk_p
+set_property src_info {type:XDC file:1 line:23 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H17  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_clk_n }];  # hdmi_tx_clk_n
+set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D19  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_p[0] }];  # hdmi_tx_p[0]
+set_property src_info {type:XDC file:1 line:27 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D20  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_n[0] }];  # hdmi_tx_n[0]
+set_property src_info {type:XDC file:1 line:30 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN C20  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_p[1] }];  # hdmi_tx_p[1]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B20  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_n[1] }];  # hdmi_tx_n[1]
+set_property src_info {type:XDC file:1 line:34 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B19  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_p[2] }];  # hdmi_tx_p[2]
+set_property src_info {type:XDC file:1 line:35 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A20  IOSTANDARD TMDS_33 } [get_ports { hdmi_out_data_n[2] }];  # hdmi_tx_n[2]
